@@ -1,0 +1,347 @@
+/*
+Theme Name: Simplify
+Theme URI: http://d5creation.com/themes/simplify/
+
+Author: D5 Creation
+Author URI: http://d5creation.com/
+
+Description: Simplify is a CSS3 Powered and WordPress Latest Version Ready Responsive Theme for Small Business Companies. Exciting Slide, 02 Rows of Featured Boxes, Customizable Background and other options will give the WordPress Driven Site an attractive look.  Simplify is super Elegant and Professional Responsive Theme which will be adjusted automatically with all smart devices. First and Second Row Featured Boxes can show your company's Featured Items, Services etc.  Right and Footer Sidebar will be usable for showing the widgets. Full Wide Template can be used for showing showcase or other pages. Simplify is Translation Ready. You can Visit the Simplify Demo Here: http://demo.d5creation.com/themes/?theme=Simplify and can visit the Theme page here: http://d5creation.com/theme/simplify
+
+Version: 3.09
+
+Tags: gray, light, two-columns, right-sidebar, fixed-layout, fluid-layout, responsive-layout, black, blue, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, rtl-language-support, front-page-post-form, full-width-template, translation-ready, theme-options  
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Simplify WordPress Theme, Copyright 2012-2014: D5 Creation (www.d5creation.com)
+Simplify is distributed under the terms of the GNU GPL
+
+Text Domain: simplify
+
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;}
+:focus{outline:0;}
+body{line-height:1;}
+ol,
+ul{list-style:none;}
+table{border-collapse:separate;border-spacing:0;}
+caption, th, td{font-weight:normal;text-align:left;}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after{content:"";}
+blockquote,
+q{quotes:"" "";}
+a img{border:0;}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section{display:block;}
+.alignnone{margin:5px 20px 20px 0;}
+.aligncenter,
+div.aligncenter{display:block;margin:5px auto 5px auto;}
+.alignright{float:right;margin:5px 0 20px 20px;}
+.alignleft{float:left;margin:5px 20px 20px 0;}
+.aligncenter{display:block;margin:5px auto 5px auto;}
+a img.alignright{float:right;margin:5px 0 20px 20px;}
+a img.alignnone{margin:5px 20px 20px 0;}
+a img.alignleft{float:left;margin:5px 20px 20px 0;}
+a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
+.wp-caption{background:#fff;border:1px solid #f0f0f0;max-width:96%;padding:5px 3px 10px;text-align:center;}
+.wp-caption.alignnone{margin:5px 20px 20px 0;}
+.wp-caption.alignleft{margin:5px 20px 20px 0;}
+.wp-caption.alignright{margin:5px 0 20px 20px;}
+.wp-caption img{border:0 none;height:auto;margin:0;max-width:98.5%;padding:0;width:auto;}
+.wp-caption p.wp-caption-text{font-size:11px;line-height:17px;margin:0;padding:0 4px 5px;}
+body{color:#6a6969;font-family:'Anaheim', sans-serif;font-size:14px;line-height:1.15;min-width:950px;word-wrap:break-word;}
+div, p, a, li, img{transition:all 2s;-moz-transition:all 2s;-o-transition:all 2s;-webkit-transition:all 2s;}
+#slide div, #slide p, #slide a, #slide li, #slide img{transition:none;-moz-transition:none;-o-transition:none;-webkit-transition:none;}
+img{max-width:100%;border:0 none;}
+#container{width:930px;margin:40px auto;}
+#header{height:90px;background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/header.png*/ repeat-x scroll 0 0 #000000;}
+/*#header-bottom{background:url("images/header-bottom.png") no-repeat scroll center top #3c4143;height:400px;margin:-7px 0 -410px;}*/
+img.site-logo, .site-title {max-width:250px;max-height:70px;padding:5px 0;float:left;}
+.site-title { padding: 20px 0; font-size: 35px; text-transform: uppercase; max-width: 300px; }
+#header-content{width:930px;margin:auto;}
+.site-title-hidden{display:none;}
+#content{float:left;width:70%;}
+#content-full{width:930px;}
+.content-ver-sep{background:none repeat scroll 0 0 #CCCCCC;border-bottom:1px solid #FFFFFF;clear:both;height:1px;}
+.lsep{background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/lsep.png*/ no-repeat scroll top center #CCCCCC;clear:both;height:20px;margin:10px auto;}
+#right-sidebar{float:right;width:25%;}
+#footer{background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/footer.png*/ repeat-x scroll 0 0 #26292B;border-bottom:50px solid #111111;clear:both;padding:0px;min-width:930px; border-top: 10px solid #000000;}
+.versep{background:none repeat scroll 0 0 #111111;border-bottom:1px solid #222222;border-top:80px solid #222222;height:2px;}
+#footer-content{width:930px;margin:0 auto;}
+#social{display:table;height:50px;margin:-70px auto 30px;padding:0 10px 10px;}
+
+.youtube-link,
+.gplus-link,
+.picassa-link,
+.li-link,
+.feed-link{float:left;height:50px;width:50px;}
+#footer-sidebar{overflow:hidden;padding-top:20px;}
+#creditline{color:#8A96A0;font-size:13px;margin-bottom:-40px;text-align:center;padding: 5px;}
+#creditline a{font-weight:bold;}
+#simplify-main-menu{color:#EEEEEE;float:right;line-height:1;max-width:650px;}
+#simplify-main-menu ul{list-style:none outside none;}
+#simplify-main-menu li{float:left;position:relative;margin:0 5px;}
+#simplify-main-menu a{color:white;display:block;font-size:20px;min-width:40px;padding: 25px 10px 29px;position:relative;text-align:center;text-transform:uppercase;border-bottom:5px solid transparent;font-family: '微软雅黑', '黑体'}
+#simplify-main-menu a:hover,
+#simplify-main-menu .current-menu-item > a,
+#simplify-main-menu .current-menu-ancestor > a,
+#simplify-main-menu .current_page_item > a,
+#simplify-main-menu .current_page_ancestor > a{color:#45a9f6;border-bottom:5px solid #45a9f6;}
+#simplify-main-menu li ul{float:left;position:relative;margin:0;}
+#simplify-main-menu ul ul,
+.sub-menu, .sub-menu ul ul{display:none;float:left;left:0;position:absolute;border-bottom:5px solid #000000;border-top:5px solid #000000;border-radius:5px;background:#F2F2F2;background:rgba(242, 242, 242, 0.95);padding:5px;box-shadow:0px 0px 5px 0px #000000;z-index:10000;}
+#simplify-main-menu ul li ul li{margin:0;}
+#simplify-main-menu ul ul ul{left:100%;top:0;z-index:999;}
+#simplify-main-menu ul ul a{border-bottom:1px solid #BFBFBF;border-top:1px solid #FFFFFF;color:#242424;padding:9px 15px;width:140px;text-align:left;text-transform:none;}
+#simplify-main-menu ul ul a:hover,
+#simplify-main-menu ul ul .current-menu-item > a,
+#simplify-main-menu ul ul .current-menu-ancestor > a,
+#simplify-main-menu ul ul .current_page_item > a,
+#simplify-main-menu ul ul .current_page_ancestor > a{background:#555555;color:#EEEEEE;border-bottom:1px solid #BFBFBF;}
+#simplify-main-menu ul li:hover > ul{display:block;}
+.widget{display:block;word-wrap:break-word;}
+#right-sidebar .widget{background:none repeat scroll 0 0 #CCCCCC;margin-bottom:20px;padding:15px;}
+#right-sidebar .widget h3{color:#555555;padding-bottom:5px;text-transform:uppercase;}
+#right-sidebar .widget,
+#right-sidebar .widget li,
+#right-sidebar .widget a,
+#right-sidebar .widget a:hover{color:#333333;text-decoration:none;}
+#right-sidebar .widget ul{border-bottom:1px solid #EEEEEE;border-top:1px solid #999999;margin:0;}
+#right-sidebar .widget li{background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/listicon.gif*/ no-repeat scroll 0 8px transparent;border-bottom:1px solid #999999;border-top:1px solid #EEEEEE;list-style:none outside none;padding:5px 0 5px 17px;}
+#footer-sidebar .widget{margin-bottom:30px;}
+#footer-widget{float:left;}
+#footer-sidebar .widgets{margin-left:6%;float:left;}
+#footer-sidebar #footer-widget{width:20.5%;}
+#footer-sidebar .widget h3{color:#EEEEEE;text-transform:uppercase;}
+#footer-sidebar .widget,
+#footer-sidebar .widget li,
+#footer-sidebar .widget a,
+#footer-sidebar .widget a:hover{color:#BAB4B4;text-decoration:none;}
+#footer-sidebar .widget ul{margin:0;}
+#footer-sidebar .widget li{background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/listicon.gif*/ no-repeat scroll 0 8px transparent;list-style:none outside none;padding:5px 0 5px 17px;}
+#right-sidebar input#s,
+#footer-sidebar input#s{width:60%;min-width:100px;}
+#right-sidebar form#searchform input[type="submit"],
+#footer-sidebar form#searchform input[type="submit"]{padding:8px 7px;}
+.textwedget{width:100%;}
+h1, h2, h2 a, h2 a:visited, h3, h4, h5, h6{font-family:'Poiret One', cursive, sans-serif;font-weight:bold;line-height:1.25;margin:0 0 10px;}
+h1,h2,h3,h4,h5,h6{clear:both;}
+hr{background-color:#ccc;border:0;height:1px;margin-bottom:10px;}
+ul, ol{margin:0 0 10px 25px;}
+ul{list-style:square outside none;}
+ol{list-style:decimal outside none;}
+dl{margin:0 20px;}
+dt{font-weight:bold;}
+dd{margin-bottom:10px;}
+strong{font-weight:bold;}
+cite, em, i{font-style:italic;}
+blockquote cite,
+blockquote em,
+blockquote i{font-style:normal;}
+pre{background:#FFFFFF;border-radius:5px 5px 5px 5px;color:#222222;line-height:18px;margin-bottom:18px;overflow:auto;padding:1.5em;}
+abbr,
+acronym{border-bottom:1px dotted #666;cursor:help;}
+sup,
+sub{height:0;line-height:1;position:relative;vertical-align:baseline;font-size:70%;}
+sup{bottom:1ex;}
+sub{top:.5ex;}
+address{background:#EEEEEE;border:2px solid #DDDDDD;border-radius:5px 5px 5px 5px;font-weight:bold;margin-bottom:15px;max-width:250px;padding:5px 10px;text-align:right;}
+embed{max-width:100%;}
+#container .gallery{margin:0 auto 1.625em;}
+#container .gallery a img{border:none;}
+#container .gallery .attachment-thumbnail{float:none;margin:5px auto;}
+img#wpstats{display:block;margin:0 auto 1.625em;}
+#container .gallery-columns-1 .gallery-item{width:80%;}
+#container .gallery-columns-2 .gallery-item{width:40%;}
+#container .gallery-columns-3 .gallery-item{width:27%;}
+#container .gallery-columns-4 .gallery-item{width:19%;}
+#container .gallery-columns-4 .gallery-item img{width:100%;height:auto;}
+h1{font-size:30px;}
+h2{font-size:23px;}
+h3{font-size:20px;}
+h4{font-size:17px;}
+h5{font-size:15px;}
+h6{font-size:13px;}
+p{margin-bottom:15px;}
+a{color:#0387BF;text-decoration:none;}
+b, strong{font-weight:bold;}
+displaynone{display:none;}
+.clear{clear:both;}
+table{background-color:#EEEEEE;border:1px solid #FFFFFF;border-radius:3px 3px 3px 3px;padding:5px;-moz-border-radius:3px;-webkit-border-radius:3px;min-width:200px;color:#333333;}
+td{padding:5px 7px;vertical-align:top;}
+#wp-calendar td{padding:0px 7px;}
+th{font-weight:bold;line-height:1;padding:5px 7px;text-shadow:0 1px 0 rgba(255, 255, 255, 0.7);background:#CCC;}
+caption{color:#555555;}
+table#wp-calendar{width:100%;}
+input[type="text"],
+textarea, input#s,
+input[type="password"]{background:none repeat scroll 0 0 #EDEDED;border-radius:5px;font-size:14px;padding:10px 7px;width:98%;border-top:1px solid #999999;border-left:1px solid #999999;border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;}
+input[type="password"]{width:200px;}
+input[type="text"]:focus,
+textarea:focus,
+input#s:focus,
+input[type="password"]:focus{background:none repeat scroll 0 0 #F7F7F7;}
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"]{-moz-box-shadow:inset 0px 1px 0px 0px #0eb3cc;-webkit-box-shadow:inset 0px 1px 0px 0px #0eb3cc;box-shadow:0px 0px 3px 0px #555555;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #11a5db), color-stop(1, #085d96));background:-moz-linear-gradient(center top, #11a5db 5%, #085d96 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11a5db', endColorstr='#085d96');background-color:#11a5db;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;border:1px solid #0785b3;display:inline-block;color:#f7f7f7;font-family:arial;font-size:13px;font-weight:bold;padding:5px 15px 6px;text-decoration:none;text-shadow:1px 1px 1px #555555;min-height:35px;text-transform:uppercase;cursor:pointer;margin:5px 0;}
+button:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #085d96), color-stop(1, #11a5db));background:-moz-linear-gradient(center top, #085d96 5%, #11a5db 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#085d96', endColorstr='#11a5db');background-color:#085d96;}
+button:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+input[type="submit"]:active{position:relative;top:1px;}
+input#s{width:70%;min-width:235px;}
+.post.sticky,
+.sticky{background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/sticky.png*/ no-repeat scroll right top #F2F2F2;margin-bottom:30px;padding:15px;}
+.gallery-caption{clear:both;width:95%;}
+.bypostauthor{}
+#container,
+#content,
+#content-full{font-size:14px;text-align:justify;}
+#content img,
+#content-full img{height:auto;max-width:100%;vertical-align:middle;}
+#content img.wp-smiley,
+#content-full img.wp-smiley{border:none;box-shadow:none;}
+#heading{color:#CCCCCC;font-size:35px;margin: 40px auto;text-align:center;width:700px;font-weight:100;}
+.heading-desc{color:#AAAAAA;font-size:14px;margin:-40px auto 10px;text-align:center;width:700px;}
+#slide-container{width:1190px;height:445px;background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/sliderbottom.png*/ no-repeat scroll center bottom transparent;margin:30px 0;}
+#slide{width:930px;height:350px;overflow:hidden;}
+#slide-container a, #slide{transition:none;-moz-transition:none;-o-transition:none;-webkit-transition:none;}
+#slide img{width:930px;height:350px;overflow:hidden;}
+#ft-buttons-slide{text-align:left;margin:-30px 30px 0;width:870px; font-size: 0px; position: absolute; position: absolute;}
+.ft-button-slide { background: transparent; border-radius: 50%; margin: 0 5px; border: 2px solid #FFFFFF; border: 2px solid #149bdf; width: 1px; height: 1px; display: inline-block;  }
+.ft-button-slide-active { background: #FFFFFF; background: #abcdef; }
+
+#ft-title-slide{position:absolute;bottom:0pt;margin-left:400px;z-index:1000;opacity:1;width:500px;font-size:15px;}
+#ft-title-slide blockquote{background:#EEEEEE;background:rgba(255, 255, 255, 0.70);color:#333333;font-size:17px;text-align:right;box-shadow:0 0 5px 0 #999999;border-left:10px solid #999999;border-right:10px solid #999999;}
+#ft-title-slide blockquote h3{margin:0;}
+#ft-title-slide blockquote:before{content:'';margin-right:0;}
+#ft-title-slide blockquote:after{content:'';margin-left:0;}
+#featured-boxs{padding:0;display:inline-block;text-align:left;}
+.featured-box{width:210px;margin-left:30px;}
+.featured-box h3{font-family:Verdana, Geneva, sans-serif;font-weight:100;font-size:15px;color:#555555;}
+#featured-boxs h2{font-family:Verdana, Geneva, sans-serif;font-weight:100;font-size:19px;color:#555555;}
+.featured-box-first{padding:20px 0;width:210px;margin:0;}
+#featured-boxs img.box-image{border:3px solid #EEEEEE;width:202px;height:100px;}
+#featured-boxs img.box-image:hover{box-shadow:0 0 11px 0px #555555;}
+#featured-boxs img.box-icon{width:50px;height:50px;}
+h3.featured-box2{width:140px;float:right;}
+.featured-box,
+.featured-box-first{display:inline;float:left;}
+#customers-comment{font-size:17px;font-weight:bold;margin-top:20px;line-height:2;}
+blockquote, q {background:#DDDDDD;background:none repeat scroll 0 0 rgba(255, 255, 255, 0.35);border-left:10px solid #ccc;margin:20px 10px;padding:10px;quotes:quotes:'<<' '>>';border-right:10px solid #ccc;}
+blockquote:before, q:before {color:#ccc;content:'\201C';font-size:4em;line-height:.1em;margin-right:.20em;vertical-align:-.4em;}
+blockquote:after, q:after {color:#ccc;content:'\201D';font-size:4em;line-height:.1em;margin-left:.20em;vertical-align:-.4em;}
+blockquote p, q p {display:inline;}
+#container .attachment-thumbnail{border:1px solid #AAAAAA;border-radius:3px 3px 3px 3px;margin:0px 15px 10px 0;padding:3px;float:left;}
+#container .gallery .attachment-thumbnail{float:none;margin:5px auto;}
+h1.page-title,
+h1.arc-post-title{font-size:25px;text-shadow:-1px -1px 3px #FFFFFF;text-transform:uppercase;text-align:left;color:#45a9f6;}
+h2.post-title,
+h2.comments,
+h3#reply-title,
+h2.post-title-color{font-size:20px;margin-bottom:0;padding-bottom:10px;text-align:left;text-shadow:-1px -1px 3px #FFFFFF;text-transform:uppercase;}
+.entrytext{padding:10px 0;}
+h2.post-title a,
+h2.post-title a:hover,
+h2.comments a,
+h2.post-title-color{color:#45a9f6;}
+h3.arc-src{text-transform:uppercase;color:#F60;font-size:20px;}
+h3 span{color:#777777;}
+.post,
+.hentry,
+.no-results{margin-bottom:20px;}
+.read-more{background:none repeat scroll 0 0 #EEEEEE;border:1px solid #C5C7C8;border-radius:10px 10px 10px 10px;box-shadow:0 0 3px 0 #C5C7C8;display:table;padding:5px 10px;margin-top:10px;}
+.read-more a{color:#555555;}
+.postmetadata{font-family:Arial, Helvetica, sans-serif;text-shadow:0 0 1px #FFFFFF;}
+p.postmetadata{margin:0;}
+.postmetadata a{color:#0387BF;}
+.postmetadataw{letter-spacing:3px;font-weight:bold;font-family:'宋体'}
+.up-bottom-border{background:/*tpa=http://www.sxdaxin.com/wp-content/themes/simplify/images/bottom.png*/ no-repeat scroll center bottom transparent;display:inline-block;margin-bottom:10px;padding:5px 0 25px 0;width:100%;border-top:1px solid #EEEEEE;}
+.page-link{font-weight:bold;}
+.page-link a{background:#AAAAAA;padding:0 5px;color:#FFFFFF;}
+.floatleft{float:left;width:45%;text-align:left;}
+.floatright{float:right;width:45%;text-align:right;}
+#page-nav .alignright{text-align:right;}
+#page-nav .alignleft{text-align:left;}
+#page-nav a{border-width:1px;font-size:17px;font-weight:bold;padding:10px;}
+#commentsbox .commentlist{margin:0;}
+#commentsbox .watermark{color:rgba(150, 150, 150, 0.7);font-family:'Oswald',arial,serif;font-size:17px;text-align:center;text-shadow:none;text-transform:uppercase;}
+#commentsbox .comment-author cite,
+#commentsbox .comment-author cite a{color:#1072BC;letter-spacing:3px;font-style:normal;font-weight:bold;}
+#commentsbox img.avatar{left:0;position:absolute;ttop:7px;}
+#commentsbox ul.children{padding:0;}
+.comment-body{padding:0 0 10px;}
+#commentsbox .commentlist li.comment{border-top:1px solid #EEEEEE;line-height:19px;margin:0 0 24px;padding:5px 0 0 50px;position:relative;}
+#comments .comment-body p:last-child{margin-bottom:6px;}
+#commentsbox .comment-meta,
+#commentsbox .comment-meta a:link,
+#commentsbox .comment-meta a:visited{color:#AAAAAA;font-size:12px;padding-bottom:10px;text-shadow:none;}
+#commentsbox .commentlist .children li{border-top:2px solid #FFFFFF;list-style:none outside none;margin:0 0 0 -25px;}
+#commentsbox .commentlist li:last-child{border-bottom:medium none;ist-style:none outside none;}
+#comment-form{max-width:550px;}
+#respond .required{color:#ff4b33;font-weight:bold;position:absolute;}
+#commentsbox ol.commentlist, #commentsbox li.commentlist{padding:0;list-style:none;}
+#comments-list #respond{margin:0 0 18px 0;}
+#comments-list ul #respond{margin:0;}
+#cancel-comment-reply-link{font-weight:normal;line-height:18px;}
+#respond input{margin:0 0 9px;}
+#respond textarea{width:98%;}
+#respond .form-allowed-tags{font-size:13px;line-height:18px;}
+#respond .form-allowed-tags code{font-size:11px;}
+#respond .form-submit{margin:12px 0;}
+#respond .form-submit input{font-size:14px;width:auto;}
+h2#client-text.post-title{color:#888A8A;opacity:0.7;padding:10px 0;text-align:center;}
+#client{display:table;display:block\9;margin:20px auto;}
+#client img{margin:0 13px;max-height:100px;vertical-align:middle;width:100px;}
+#f-post-page { margin: 10px auto; width: 100%; font-size: 15px; cursor: pointer; text-align: center; font-weight: bold; } 
+#f-post-page-container { display: none; }
+
+/* =Media Print
+-------------------------------------------------------------- */
+@media print {
+h1 { page-break-before:always; }
+h1,  h2,  h3,  h4,  h5,  h6 { page-break-after:avoid; }
+ul,  ol,  dl { page-break-before:avoid; }
+}
+
+.entrytext ul li{
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.entrytext ul li a img{
+    height:120px;
+    width:195px;
+}
+.imgcontent{
+    margin-top: 10px;
+}
+

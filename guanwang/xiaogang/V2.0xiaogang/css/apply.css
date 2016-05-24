@@ -1,0 +1,26 @@
+/* 自定义模块涉及到的样式 */
+.tablex, .table{margin:1px auto;width:99%;}
+.tablex .left, .table .left{float:left;width:20%;text-align:right;padding:3px 1px;}
+.tablex .right, .table .right{float:left;text-align:left;padding:3px 1px;width:68%;}
+.clue_on{color:#808080}
+.table input,.table textarea {
+    padding: 4px;
+    font-size: 15px;
+    outline: none;
+    text-shadow: 0px 1px 0px #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+	background:#fff url(dt-10.gif)/*tpa=http://www.yatouhome.com/templates/sm_box/images/dt-10.gif*/ repeat-x left top;
+}
+.table input:focus, .table textarea:focus {
+     border: 1px solid #fafafa;
+     -webkit-box-shadow: 0px 0px 6px #007eff;
+     -moz-box-shadow: 0px 0px 5px #007eff;
+     box-shadow: 0px 0px 5px #007eff;
+}
+.con{width:75px; height:28px; border:none; cursor:pointer; background:#2693FF; color:#FFF;}

@@ -1,0 +1,193 @@
+@import '../css/font-awesome.css';
+@import url(http://fonts.useso.com/css?family=Open+Sans:400);
+@import url(http://fonts.useso.com/css?family=Open+Sans:700);
+@import url(http://fonts.useso.com/css?family=Open+Sans:300);
+@import url(http://fonts.useso.com/css?family=Open+Sans:300italic);
+@import url(http://fonts.useso.com/css?family=Open+Sans:400italic);
+@import url(http://fonts.useso.com/css?family=Yanone+Kaffeesatz);
+@import url(http://fonts.useso.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.useso.com/css?family=Open+Sans+Condensed:700);
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+    color:#555;
+}
+img {
+  border: 0;
+}
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+.cl {
+  clear: both;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.main-nav {
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logo {
+    float:left;
+}
+.main-nav .nav-left a {
+ /* font-size: 16px;*/
+  padding: 10px 20px;
+  color:#555;;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 800;
+/*  font-family: 'Gabriela', serif;*/
+  /*font-family: "Adobe Caslon Pro Bold"*/
+/*  font-family: 'Roboto', sans-serif;*/
+ /* font-family: "Adobe Ming Std L";*/
+    font: 20px/20px 'Yanone Kaffeesatz', sans-serif;
+}
+.nav_right {
+    height:40px;
+    line-height: 40px;
+    float:right;
+    margin-top:25px;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+    display: none;
+}
+.bx-wrapper .bx-prev {
+    left: 10px;
+    display: none;
+}
+.nav_right li {
+    list-style: none;
+    float:left;
+}
+.main-nav .nav_right li:hover {
+   background-color: #fff;
+    display: block;
+    background:#15C3C2;
+}
+.main-nav .nav_right li:hover a{
+    color:#FFFFFF;
+}
+.slider-part {
+  position: relative;
+    width:100%;
+    background-color:#15C3C2 ;
+    margin-top:20px;
+}
+.slider-part .building {
+  position: absolute;
+  top: 34px;
+}
+.slider-part .building.building1 {
+  right: 0;
+}
+.slider-part .building.building2 {
+  left: 0;
+}
+.tit {
+  font-size: 24px;
+  font-weight: 500;
+  color: #15C3C2;
+  border-bottom: 1px solid #ddd;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.markalar {
+  width: 226px;
+  height: 234px;
+  float: left;
+  background-color: #F7F7F7;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.markalar .baslik {
+  float: left;
+  font-size: 15px;
+  color: #B92026;
+  padding: 7px 15px 3px;
+  color: #15C3C2;
+}
+.markalar:hover{
+    border:1px solid #15C3C2;
+}
+.markalar .baslik a {
+  color: #15C3C2;
+}
+.markalar .cizgi {
+  width: 220px;
+  height: 1px;
+  border-bottom: 1px solid #fff;
+  float: left;
+  background-color: #15C3C2;
+  margin-left: 5px;
+}
+.markalar .logolar {
+  width: 220px;
+}
+.markalar .logo {
+  float: left;
+  padding: 4px 5px;
+}
+.markalar .logo img {
+  width: 100px;
+  height: 50px;
+}
+.about-cont {
+  padding: 0 10px 10px;
+  margin-top: 10px;
+}
+.contact-cont {
+  padding: 0 10px 10px;
+  margin-top: 10px;
+    text-align: center;
+}
+.contact-cont .way {
+  margin-bottom: 10px;
+}
+.contact-cont .way .way-tit {
+  font-weight: bold;
+}
+.modal {
+  position: absolute;
+  top: 200px;
+  width: 500px;
+  height: 100px;
+  left: 50%;
+  margin-left: -250px;
+  background-color: #F7F7F7;
+  border: 2px solid #15C3C2;
+  z-index: 1;
+  display: none;
+}
+.modal .modal-tit {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: #15C3C2;
+}
+.modal .modal-tit .close {
+  position: absolute;
+  color: #fff;
+  right: 0;
+  text-decoration: none;
+}
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  display: none;
+}

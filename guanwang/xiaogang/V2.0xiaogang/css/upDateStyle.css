@@ -1,0 +1,211 @@
+@charset "utf-8";
+.admin_tool ul li {
+    clear: both;
+    float: right;
+}
+.admin_tool ul li .twoWord {
+    background: url("icon_02.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/icon_02.png*/ no-repeat 0 -229px;
+    display: block;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 32px;
+}
+.erweimaImg {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+}
+.product_buy a.addShoppingToCart {
+    background: url("shopcar.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/shopcar.png*/ no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 35px;
+    position: static;
+    width: 96px;
+}
+.addShoppingToCartCount {
+    background-color: #FF0000;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+.addShoppingToCartCount .addShoppingCount {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.discuss_report_textarea div.disscussComment {
+    height: 60px;
+}
+.notice li {
+    float: left;
+    margin-left: 100px;
+}
+.product_detailmore_content li p {
+    word-wrap: break-word;
+}
+.dlBoxLeft {
+    background-color: #EFEFEF;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+.dlBoxRight {
+    background-color: #EFEFEF;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+.dlAdvLeftImgBox {
+}
+.dlAdvCloseDiv {
+    background-image: url("dlCloseBj.jpg")/*tpa=http://www.yatouhome.com/templates/sm_box/images/dlCloseBj.jpg*/;
+    background-repeat: repeat-x;
+    border-top: 1px solid #CCCCCC;
+    height: 25px;
+    margin-top: 3px;
+}
+.dlAdvClose {
+    background-image: url("dlClosebutton.jpg")/*tpa=http://www.yatouhome.com/templates/sm_box/images/dlClosebutton.jpg*/;
+    background-repeat: no-repeat;
+    color: #7F7C7C;
+    cursor: pointer;
+    display: block;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: bold;
+    height: 19px;
+    line-height: 19px;
+    margin: 3px auto 0;
+    padding-left: 8px;
+    padding-top: 1px;
+    text-align: center;
+    width: 52px;
+}
+.dlAdvLeftClose {
+}
+.dlAdvRightClose {
+}
+.pfAdv {
+}
+.plCloseDiv {
+    background-image: url("pfAdvPicClose.jpg")/*tpa=http://www.yatouhome.com/templates/sm_box/images/pfAdvPicClose.jpg*/;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 16px;
+}
+.plCloseA {
+    color: #102A49;
+    font-family: "宋体";
+    font-size: 14px;
+    text-decoration: none;
+}
+.user_login_sub2 ul li a.login, .user_login_sub2 ul li a.register {
+    background: url("login_btnicon01.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/login_btnicon01.png*/ no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 21px;
+    margin: 5px 10px 0 20px;
+    padding-right: 5px;
+}
+.user_login_sub2 ul li a .btn1, .user_login_sub2 ul li a .btn2 {
+    background: url("login_btnicon02.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/login_btnicon02.png*/ no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #4A4A4A;
+    cursor: pointer;
+    float: none;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0 0 0 13px;
+    width: auto;
+}
+.fileRadio {
+    float: left;
+}
+.fileRadio .falseFile {
+    background: url("falseFile_bg.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/falseFile_bg.png*/ no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 8px;
+}
+.fileRadio .falseFile .falseBtn {
+    background: url("falseBtn_bg.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/falseBtn_bg.png*/ no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 28px;
+    width: auto;
+}
+.fileRadio .trueFile {
+    background-image: url("trueFile_bg.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/trueFile_bg.png*/;background-repeat:no-repeat;background-position:right bottom;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    width:77px;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 8px;
+}
+.fileRadio .trueFile img {    
+    float:left;
+}
+.fileRadio .trueFile span {    
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 5px;
+    width: auto;
+    display:block;
+    float:left;
+}
+.user_login_form {
+    padding: 10px;
+}
+.admin_tool {
+    z-index: 800;
+}
+.fwCodeText{ float:left;}
+.fwImgCheckCode{ display:block; height:18px; float:left; padding-top:5px; margin-left:5px;}
+
+.memberRegSelect,.memberInfoSelect {min-width: 150px;}
+.cart_bnt .orderDetails_Pay{ float:left; margin-right:20px;}
+div.zoomDiv{z-index:999;position:absolute;top:0px;left:0px;width:200px;height:200px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+div.zoomMask{position:absolute;background:url("maskfdj.png")/*tpa=http://www.yatouhome.com/templates/sm_box/images/maskfdj.png*/ repeat scroll 0 0 transparent;cursor:move;z-index:1;}
+/**投票展示(前台)**/
+.vote {
+	background-color:#FFFFFF;
+	padding:10px 20px;
+}
+.voteHead{ font-size:12px; margin-bottom:10px; color:#666;}
+.voteHead strong{ font-size:16px; color:#000;}
+.voteTitle{ font-size:14px; margin-bottom:5px;}
+.pvt{ width:80%;}
+.pvts{ padding-left:10px;}
+.pbg{background: url("pllb.jpg")/*tpa=http://www.yatouhome.com/templates/sm_box/images/pllb.jpg*/repeat-x; height:16px; width:98%;
+-moz-border-radius:0 6px 6px 0; 
+-webkit-border-radius:0 6px 6px 0;  
+border-radius:0 6px 6px 0;  
+}
+.pbr{ height:16px;
+-moz-border-radius:0 6px 6px 0; 
+-webkit-border-radius:0 6px 6px 0;  
+border-radius:0 6px 6px 0;  }
