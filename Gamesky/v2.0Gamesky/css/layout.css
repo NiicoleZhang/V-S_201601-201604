@@ -1,0 +1,314 @@
+body {
+    background-color: #eaeef4;
+    font-size: 14px;
+}
+a {
+    outline: none;
+}
+/*首页样式开始*/
+.container {
+    width: 1148px;
+    background-color: #ffffff;
+}
+.nav {
+    width:100%;
+    background-color: #1998fe;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.nav a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.subject {
+    height: 910px;
+    margin: 0 auto;
+    padding: 50px 30px 50px 22px;
+}
+.subject .item {
+    width:280px;
+    height:444px;
+    overflow: hidden;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.subject .item>div {
+    width: 266px;
+    height: 440px;
+    margin: 0 auto;
+    border-top-right-radius:101px;
+    border-bottom-left-radius: 101px;
+    -webkit-border-top-right-radius: 101px;
+    -webkit-border-bottom-left-radius: 101px;
+    -moz-border-radius-topright: 101px;
+    -moz-border-radius-bottomleft: 101px;
+    position: relative;
+    overflow: hidden;
+}
+
+.subject .item>div a img{
+    width: 266px;
+    transition: All .6s;
+    -webkit-transition: All .6s;
+    -moz-transition: All .6s;
+    -o-transition: All .6s;
+}
+.subject .item>div a:hover img{
+   transform: scale3d(1.2,1.2,1.2);
+    -webkit-transform: scale3d(1.2,1.2,1.2);
+    -moz-transform:  scale3d(1.2,1.2,1.2);
+    -o-transform:  scale3d(1.2,1.2,1.2);
+    -ms-transform: scale3d(1.2,1.2,1.2);
+    transition: All .6s;
+    -webkit-transition: All .6s;
+    -moz-transition: All .6s;
+    -o-transition: All .6s;
+}
+
+.subject  .item>div .star_bg {
+    width: 246px;
+    height: 36px;
+    background-color: #525252;
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    position: absolute;
+    left: 20px;
+    bottom:32px;
+    z-index: 2;
+}
+.subject  .item>div .star {
+    position: absolute;
+    left: 82px;
+    bottom:26px;
+    z-index: 2;
+    width:100%;
+    height: 36px;
+}
+.subject  .item>div .star i {
+    background: url("../images/star1.png") no-repeat;
+    display: inline-block;
+    width:24px;
+    height: 24px;
+    margin-right: 5px;
+}
+.subject  .item>div .star i.cur {
+    background: url("../images/star2.png");
+}
+.subject .exploit {
+    width: 71px;
+    height: 97px;
+    z-index: 99;
+    position: absolute;
+    left: 0px;
+   bottom: 97px;
+}
+/*首页样式结束*/
+/*详情页样式开始*/
+.detail_bg {
+    width:100%;
+    position: relative;
+   /* background: url("../images/detail_bg.png") no-repeat;*/
+  /*  padding-top: 440px;*/
+}
+.detail_bg2 {
+    width:100%;
+    background: #fff;
+    padding-top: 0px;
+    /*margin-top: -10px;*/
+}
+.detail_background {
+    position: absolute ;
+    z-index: -1;
+    width: 100%;
+}
+.detail_bg .container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.cont {
+    padding-top: 440px;
+}
+.detail_bg .free_down {
+    width: 1050px;
+    padding: 23px 48px 23px 42px;
+}
+.detail_bg .free_down .left {
+    width: 280px;
+    height: 750px;
+    float: left;
+    margin-right: 50px;
+}
+.detail_bg .free_down .left .appIcon {
+    width: 200px;
+    height: 200px;
+    background-color: #1e1f20;
+    border-radius: 55px;
+    text-align: center;
+    margin-left: 40px;
+}
+.detail_bg .free_down .left .appIcon a img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 55px;
+}
+.detail_bg .free_down .left .appIcon a {
+    margin: 0 auto;
+    display: inline-block;
+}
+.detail_bg .free_down .left a.button_down {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1998fe;
+    border-radius: 3px;
+    display: block;
+    margin-top: 17px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.detail_bg .free_down .right {
+    float: left;
+}
+.description {
+    margin-top:25px;
+}
+.description_content {
+    height: 65px;
+   overflow: hidden;
+    width: 720px;
+    word-wrap:break-word;
+}
+.description h2{
+    font-size: 20px;
+    color: #1998fe;
+}
+.description a{
+    color:  #1998fe;
+    float:right;
+}
+.current {
+    height:100%;
+    width: 720px;
+}
+.popular {
+    width: 1050px;
+    height: 215px;
+    padding: 23px 48px 23px 42px;
+}
+.popular .title{
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 30px;
+}
+.popular .title h2 {
+    display: inline-block;
+    font-size: 20px;
+    color: #1998fe;
+    border-bottom: 4px solid #e4e4e4;
+}
+.popular ul li {
+    float: left;
+    margin-right: 65px;
+}
+.popular ul li a img {
+    width: 120px;
+    height: 120px;
+}
+.popular ul li:last-child{
+    margin-right: 0px;
+}
+.popular ul li p{
+    text-align: center;
+    width: 120px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+/*详情页样式结束*/
+.footer {
+    margin-top: 110px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.footer a {
+    margin-right: 100px;
+}
+.detail_footer {
+    margin-top: 35px;
+}
+/*联系我们*/
+.problem_name {
+    padding:0px 0px 0px 30px;
+    color:#3498db;
+    font-size:20px;
+}
+.problem_main {
+    padding:17px 30px 0px 30px;
+    font-size:14px;
+}
+.problem_main input {
+    width:100%;
+    border:1px solid #b6b6b6;
+    margin-top:10px;
+}
+.height36 {
+    height:36px;
+}
+.height138 {
+    height:138px;
+}
+.problem_main input:focus,.problem_content textarea:focus {
+    border:1px solid #3498db;
+    outline:none;
+}
+.problem_content {
+    margin-bottom:20px;
+}
+.problem_content .problem_description {
+    resize: none;
+    width:100%;
+    height:138px;
+    margin-top:10px;
+}
+.problem_content .problem_upload {
+    resize: none;
+    width:100%;
+    height:280px;
+    margin-top:10px;
+}
+.problem_contact {
+    color:#1998fe;
+    font-size:20px;
+}
+.problem_qq {
+    float:left;
+    width:50%;
+}
+.problem_tel {
+    width:48%;
+    float:right;
+}
+.problem_main .back_kend {
+    margin-top:41px;
+    padding-bottom: 41px;
+}
+.problem_main .back_kend a {
+    width:240px;
+}
+.problem_popup .popune p{
+    margin-top:40px;
+}
+.problem_popup .Create_a {
+    margin-top:80px;
+}
+.problem_popup .Create_a a:first-child{
+    background-color: #1998fe;
+}
+.back_kend {text-align: center;margin-top: 35px;margin-bottom: 60px;}
+.back_kend a {display: inline-block;width: 270px;height: 40px;background: #1998fe;font-size: 14px;color: #fff;line-height: 40px;text-align: center;border-radius: 5px;}
